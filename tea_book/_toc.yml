@@ -22,6 +22,8 @@
         - file: docs/P1_Introduccion_04
         - file: docs/P1_Introduccion_05
         - file: docs/P1_Introduccion_06
+        - file: docs/P1_Introduccion_07
+        - file: docs/P1_Introduccion_08
     - file: docs/P2_Fotometria_CCD
       sections:
         - file: docs/P2_Fotometria_CCD_01
@@ -33,9 +35,14 @@
         - file: docs/P2_Fotometria_CCD_07
         - file: docs/P2_Fotometria_CCD_08
     - file: docs/P3_Espectroscopia_Rendija_Larga
+      sections:
+        - file: docs/P3_Espectroscopia_Rendija_Larga_01
+        - file: docs/P3_Espectroscopia_Rendija_Larga_02
+        - file: docs/P3_Espectroscopia_Rendija_Larga_03
     - file: docs/P4_Observaciones.md
       sections:
         - file: docs/P4_Observaciones_01.md
+        - file: docs/P4_Observaciones_02.md
     - file: notebooks/index-notebooks-ccdproc
       sections:
         - file: notebooks/ccdproc_00_Downloading_the_Images.ipynb   
@@ -48,6 +55,11 @@
         - file: notebooks/ccdproc_07_Combining.ipynb
         - file: notebooks/ccdproc_08_Star_Photometry.ipynb
         - file: notebooks/fotometria_1.ipynb
+    - file: notebooks/index-notebooks-LongSlit
+      sections:
+        - file: notebooks/LongSlit_00_Downloading_the_Images.ipynb   
+        - file: notebooks/LongSlit_01_ImageCollection.ipynb
+        - file: notebooks/LongSlit_02_BIAS_correction.ipynb
     - file: notebooks/index-notebooks-examples
       sections:
         - file: notebooks/example_01_Read_Display_FITS.ipynb
@@ -56,3 +68,5 @@
         - file: notebooks/example_04_combining_images.ipynb
         - file: notebooks/example_05_register_images.ipynb
         - file: notebooks/example_06_aperture_photometry.ipynb
+        - file: notebooks/example_07_SkyBrightness_evolution.ipynb
+        - file: notebooks/example_08_PSF_signal-to-noise.ipynb
